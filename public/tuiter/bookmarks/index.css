@@ -1,0 +1,133 @@
+.bookmarks-window {
+    background-color: black;
+    font-family: Arial;
+    border-color: rgb(47,51,54);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.bookmarks-section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    width: inherit;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47,51,54);
+    clear : both;
+}
+
+.page-title {
+    margin-left: 16px;
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.user-handle {
+    position: relative;
+    color: lightgray;
+    font-size: 13px;
+    padding-bottom: 12px;
+    margin-left: 16px;
+
+}
+
+.user-profile-image-section {
+    float: left;
+    width : 48px;
+    height : 48px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.user-profile-image {
+    border-radius : 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.bookmark {
+    float: left;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+.display-inline {
+    display: inline-flex;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.handle-color {
+    color: lightgray;
+}
+
+.main-content {
+    font-size: 15px;
+    width: 506px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+
+.main-image-and-content {
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 506px;
+
+}
+.main-image {
+    width: inherit;
+    height: 264px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 12px;
+
+}
+
+.content-after-main-image-title {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+.content-after-main-image-text {
+    color: lightgray;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icons-bar {
+    padding: 10px;
+    color: lightgray;
+
+}
+.stat-icon{
+    display: inline-block;
+    width : 24%;
+}
+
+.stat{
+    margin-left: 12px;
+}
+
+.like-icon {
+    color: red;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+
