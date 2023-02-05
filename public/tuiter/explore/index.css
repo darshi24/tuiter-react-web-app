@@ -57,6 +57,21 @@
     padding: 10px;
     clear: both;
     height: max-content;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+
+.suggested-post-with-image {
+    padding: 10px;
+    clear: both;
+    height: max-content;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    display: flex;
+    justify-content: space-between;
 }
 
 .suggested-post-topic-style-a{
@@ -83,6 +98,8 @@
     height: 100px;
     width: 100px;
     margin-right: 16px;
+
+
 }
 
 .suggested-post-text-content {
