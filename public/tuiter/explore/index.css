@@ -1,13 +1,13 @@
-.explore-window {
-    background-color: black;
-    font-family: Arial;
-    border-color: rgb(47,51,54);
-    border-style: solid;
-    border-width: 3px;
-}
-
 .explore-section {
     padding: 20px;
+    color: white;
+    width: inherit;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47,51,54);
+}
+
+.explore-suggested-post-section {
     color: white;
     width: inherit;
     border-width: 1px;
@@ -56,10 +56,12 @@
 .suggested-post {
     padding: 10px;
     clear: both;
-    height: max-content;
-    border-style: solid;
     border-width: 1px;
-    border-color: lightgray;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color: rgb(47,51,54);
+
 }
 
 
@@ -69,7 +71,9 @@
     height: max-content;
     border-style: solid;
     border-width: 1px;
-    border-color: lightgray;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: rgb(47,51,54);
     display: flex;
     justify-content: space-between;
 }

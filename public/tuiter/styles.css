@@ -1,0 +1,7 @@
+.window {
+    background-color: black;
+    font-family: Arial;
+    border-color: rgb(47,51,54);
+    border-style: solid;
+    border-width: 3px;
+}
