@@ -1,0 +1,96 @@
+.wd-new-icon-style {
+    font-size: 0.8em;
+    color: #0a58ca;
+}
+.wd-gold-icon-style {
+    font-size: 0.8em;
+    color: goldenrod;
+}
+.wd-tweet-button {
+    width: 100%;
+    border-radius: 50px;
+    color: white;
+    background-color: deepskyblue;
+    border-width: 0px;
+    font-weight: bold;
+}
+.wd-follow-button {
+    border-radius: 50px;
+    float: right;
+    background-color: black;
+    font-weight: bold;
+}
+
+.wd-user-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-user-image-square {
+    width: 48px;
+    height: 48px;
+    border-radius: 10%;
+}
+
+.wd-text-on-image-big {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.wd-text-on-image-small {
+    position: absolute;
+    bottom: 48px;
+    left: 16px;
+    font-size: 15px;
+    color: white;
+}
+.wd-float-left{
+    float: left;
+}
+.wd-float-right{
+    float: left;
+}
+
+.wd-image-size-80-80 {
+    height: 80px;
+    width: 80px;
+}
+
+.wd-suggested-post-topic{
+    color: rgb(110,118,125);
+    font-size: 10px;
+}
+.wd-suggested-post-stat{
+    color: rgb(110,118,125);
+    font-size: 10px;
+}
+.wd-suggested-post-author{
+    font-size: 15px;
+    font-weight: bold;
+}
+.wd-suggested-post-text-content {
+    font-size: 12px;
+}
+
+
+.wd-bg-light-gray-2 {
+    background-color: rgba(241, 241, 241, 0.93);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-weight: bold;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #0a53be;
+}
+
+
+.wd-nudge-bottom-left-7 {
+    bottom: 7px;
+    left:10px;
+}

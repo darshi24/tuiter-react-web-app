@@ -3,72 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../vendors/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../vendors/fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="index.css">
+
 </head>
-<body class = "window">
-<div>
-    <div class="explore-section">
-        <span class="search-bar" >
-            <span><i class="fa fa-search"></i></span>
-            <input class="search-bar-input"
-                   placeholder="Search Twitter"/>
-        </span>
-        <span class="settings-icon-float-right"><a href="explore-settings.html"><i class="fa fa-cog"> </i></a></span>
-    </div>
-    <div class = "explore-section">
-        <a href="#" class="link-header active-link-header" > For you </a>
-        <a href="#" class="link-header"> Trending </a>
-        <a href="#" class="link-header"> COVID-19 </a>
-        <a href="#" class="link-header"> News </a>
-        <a href="#" class="link-header"> Sports </a>
-        <a href="#" class="link-header"> Entertainment </a>
-    </div>
-    <div class = "explore-suggested-post-section">
-        <div class = "suggested-post">
-            <div class="suggested-post-topic-style-a">Trending in science</div>
-            <div>Starship</div>
-            <div class="suggested-post-stat">55.5K Tweets</div>
-        </div>
-        <div class = "suggested-post">
-            <div class="suggested-post-topic-style-a">Sports Trending</div>
-            <div>Joe Rogan</div>
-            <div class="suggested-post-stat">5,218 Tweets</div>
-        </div>
-        <div class = "suggested-post-with-image">
-            <div class="suggested-post-text-content">
-                <div class = "suggested-post-author">The New York Times</div>
-                <div>  CNN's Cuomo conundrum: A star anchor with a brother in trouble CNN's Cuomo conundrum: A star anchor with a brother in troubleCNN's Cuomo conundrum: A star anchor with a brother in troubleCNN's Cuomo conundrum: A star anchor with a brother in troubleCNN's Cuomo conundrum: A star anchor with a brother in trouble</div>
+<body>
+
+    <div class="container mt-3">
+        <div class="row justify-content-evenly">
+            <div class="col-sm-2">
+                <div class="list-group">
+                    <a href="#" class="list-group-item">
+                        <i class="fab fa-twitter"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-home"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> Home </span>
+                    </a>
+                    <a href="#" class="list-group-item active">
+                        <i class="fas fa-hashtag"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> Explore </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-bell"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> Notifications </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-envelope"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> Messages </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-bookmark"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> Bookmarks </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-list"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> Lists </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-user"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> Profile </span>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="d-none d-xl-inline d-xxl-inline"> More </span>
+                    </a>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary wd-tweet-button mt-2"> Tweet </button>
+                </div>
+
             </div>
+            <div class="col-sm-10 col-md-9 col-lg-6">
+                <div class="row align-items-center">
+                    <div class="col-11">
+                        <div class="position-relative">
+                            <input type="text" class="form-control rounded-pill ps-5" placeholder="Search Twitter">
+                            <span class="position-absolute wd-nudge-bottom-left-7">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-1 p-1">
+                        <a href="explore-settings.html" class="fa fa-cog ms-2 border-0 text-decoration-none  text-primary" ></a>
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav nav-tabs mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">For you</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" >Sports</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="#" >Entertainment</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list-group">
+                    <div class="container list-group-item p-0">
+                        <img src="../../images/starship.jpg" class="card-img"/>
+                        <div class="wd-text-on-image">SpaceX's Starship</div>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="float-left">
+                            <div class="wd-suggested-post-topic"> Web Development </div>
+                            <div>
+                                <span class="wd-suggested-post-author"> ReactJS </span>
+                                <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                <span class="wd-suggested-post-stat"> - 2h </span>
+                            </div>
+                            <div class="wd-suggested-post-text-content"> React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs </div>
+                        </div>
+                        <img class="wd-float-right wd-image-size-80-80 ms-3" src="../../images/react.png"/>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left">
+                            <div>
+                                <span class="wd-suggested-post-author"> JavaScript </span>
+                                <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                <span class="wd-suggested-post-stat"> - 2h </span>
+                            </div>
+                            <div class="wd-suggested-post-text-content"> JavaScript is a programming language that can run on browsers as well as desktops </div>
+                            <div class="wd-suggested-post-stat"> 123K Tweets </div>
+                        </div>
+                        <img class="wd-float-right wd-image-size-80-80 ms-3" src="../../images/javascript.png"/>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left">
+                            <div class="wd-suggested-post-topic"> Web Development </div>
+                            <div>
+                                <span class="wd-suggested-post-author"> JQuery </span>
+                                <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                <span class="wd-suggested-post-stat"> - 2h </span>
+                            </div>
+                            <div class="wd-suggested-post-stat"> 123K Tweets </div>
+                        </div>
+                        <img class="wd-float-right wd-image-size-80-80 ms-3" src="../../images/jquery.png"/>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left">
+                            <div class="wd-suggested-post-topic"> Web Development </div>
+                            <div>
+                                <span class="wd-suggested-post-author"> NodeJS </span>
+                                <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                <span class="wd-suggested-post-stat"> - 2h </span>
+                            </div>
+                            <div class="wd-suggested-post-stat"> 123K Tweets </div>
+                        </div>
+                        <img class="wd-float-right wd-image-size-80-80 ms-3" src="../../images/node.png"/>
+                    </div>
+                </div>
 
-            <img class="suggested-post-image" src="img3.jpg"/>
-        </div>
-        <div class = "suggested-post-with-image">
-            <div class="suggested-post-text-content">
-                <div class="suggested-post-topic-style-b">COVID-19 LIVE</div>
-                <div> COVID-19 : News and update for massachusetts</div>
+
+
             </div>
-
-            <img class="suggested-post-image" src="img1.jpg"/>
-        </div>
-        <div class = "suggested-post-with-image">
-            <div class="suggested-post-text-content">
-                <div class = "suggested-post-author"> Bloomberg Opinion </div>
-                <div> Thinking about getting a covid shot ? </div>
+            <div class="d-none d-lg-block col-lg-4">
+                <div class="list-group">
+                    <div class="list-group-item "> <b>Who to follow</b> </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left d-inline-flex">
+                            <img class="wd-user-image" src="../../images/java.png"/>
+                            <div class="ms-2">
+                                <div>
+                                    <span class="wd-suggested-post-author"> Java </span>
+                                    <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                </div>
+                                <div>@Java</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary wd-follow-button">Follow</button>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left d-inline-flex">
+                            <img class="wd-user-image" src="../../images/relativity_space.png"/>
+                            <div class="ms-2">
+                                <div>
+                                    <span class="wd-suggested-post-author"> Relativity Space </span>
+                                    <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                </div>
+                                <div>@relativityspace</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary wd-follow-button">Follow</button>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left d-inline-flex">
+                            <img class="wd-user-image" src="../../images/virgin_atlantic.png"/>
+                            <div class="ms-2">
+                                <div>
+                                    <span class="wd-suggested-post-author"> Virgin Atlantic </span>
+                                    <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                </div>
+                                <div>@virginatlantic</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary wd-follow-button">Follow</button>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left d-inline-flex">
+                            <img class="wd-user-image" src="../../images/nasa.png"/>
+                            <div class="ms-2">
+                                <div>
+                                    <span class="wd-suggested-post-author"> NASA </span>
+                                    <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                </div>
+                                <div>@NASA</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary wd-follow-button">Follow</button>
+                    </div>
+                    <div class="list-group-item d-inline-flex justify-content-between">
+                        <div class="wd-float-left d-inline-flex">
+                            <img class="wd-user-image" src="../../images/tesla.png"/>
+                            <div class="ms-2">
+                                <div>
+                                    <span class="wd-suggested-post-author"> Tesla </span>
+                                    <span><i class="fas fa-check-circle" style="font-size: 0.8em"></i></span>
+                                </div>
+                                <div>@Tesla</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary wd-follow-button">Follow</button>
+                    </div>
+                </div>
             </div>
-
-            <img class="suggested-post-image" src="img2.jpg"/>
-        </div>
-        <div class="suggested-post">
-            <div class="suggested-post-topic-style-a">Trending in United States</div>
-            <div>Wonder Bread</div>
-            <div class="suggested-post-stat">1,128 Tweets</div>
         </div>
 
     </div>
-
-</div>
 
 </body>
 </html>
