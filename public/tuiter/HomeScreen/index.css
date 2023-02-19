@@ -38,14 +38,19 @@
     float: left;
 }
 
-.wd-suggested-post-topic{
+.wd-light-gray-text{
     color: rgb(110,118,125);
-    font-size: 10px;
 }
-.wd-suggested-post-stat{
-    color: rgb(110,118,125);
-    font-size: 10px;
+
+.wd-font-size-12{
+    font-size: 12px;
 }
+
+.wd-font-size-13{
+    font-size: 13px;
+}
+
+
 .wd-suggested-post-author{
     font-size: 15px;
     font-weight: bold;

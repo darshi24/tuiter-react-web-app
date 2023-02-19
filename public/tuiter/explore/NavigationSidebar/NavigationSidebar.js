@@ -1,15 +1,15 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (activePage) => {
     return(`  
         <div class="list-group">
             <a href="#" class="list-group-item">
                 <i class="fab fa-twitter"></i>
                 <span class="d-none d-xl-inline d-xxl-inline"> </span>
             </a>
-            <a href="#" class="list-group-item">
+            <a href="../HomeScreen/index.html" class="list-group-item ${activePage === 'home' ? 'active' : ''}" id="home">
                 <i class="fas fa-home"></i>
                 <span class="d-none d-xl-inline d-xxl-inline"> Home </span>
             </a>
-            <a href="#" class="list-group-item active">
+            <a href="../explore/index.html" class="list-group-item ${activePage === 'explore' ? 'active' : ''}" id="explore">
                 <i class="fas fa-hashtag"></i>
                 <span class="d-none d-xl-inline d-xxl-inline"> Explore </span>
             </a>
@@ -44,4 +44,6 @@ const NavigationSidebar = () => {
 
     `);
 }
+
+
 export default NavigationSidebar;
