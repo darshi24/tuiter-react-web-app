@@ -50,7 +50,14 @@
     font-size: 13px;
 }
 
-
+.wd-suggested-post-topic{
+    color: rgb(110,118,125);
+    font-size: 10px;
+}
+.wd-suggested-post-stat{
+    color: rgb(110,118,125);
+    font-size: 10px;
+}
 .wd-suggested-post-author{
     font-size: 15px;
     font-weight: bold;
