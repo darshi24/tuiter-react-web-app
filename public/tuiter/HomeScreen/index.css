@@ -1,0 +1,57 @@
+.wd-tweet-button {
+    width: 100%;
+    border-radius: 50px;
+}
+.wd-follow-button {
+    border-radius: 50px;
+    float: right;
+}
+
+.wd-user-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-image-size-80-80 {
+    height: 80px;
+    width: 80px;
+}
+
+.wd-text-on-image {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.wd-nudge-bottom-left-7 {
+    bottom: 7px;
+    left:10px;
+}
+
+.wd-float-left{
+    float: left;
+}
+.wd-float-right{
+    float: left;
+}
+
+.wd-suggested-post-topic{
+    color: rgb(110,118,125);
+    font-size: 10px;
+}
+.wd-suggested-post-stat{
+    color: rgb(110,118,125);
+    font-size: 10px;
+}
+.wd-suggested-post-author{
+    font-size: 15px;
+    font-weight: bold;
+}
+.wd-suggested-post-text-content {
+    font-size: 12px;
+    font-weight: bold;
+}
+
