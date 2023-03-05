@@ -22,30 +22,33 @@ const NavigationSidebar = () => {
                     <i className="fas fa-hashtag"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Explore </span>
                 </Link>
-                <Link to="#" className="list-group-item">
+                <Link to="/" className="list-group-item">
+                    Labs
+                </Link>
+                <a href="#" className="list-group-item">
                     <i className="fas fa-bell"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Notifications </span>
-                </Link>
-                <Link to="#" className="list-group-item">
+                </a>
+                <a href="#" className="list-group-item">
                     <i className="fas fa-envelope"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Messages </span>
-                </Link>
-                <Link to="#" className="list-group-item">
+                </a>
+                <a href="#" className="list-group-item">
                     <i className="fas fa-bookmark"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Bookmarks </span>
-                </Link>
-                <Link to="#" className="list-group-item">
+                </a>
+                <a href="#" className="list-group-item">
                     <i className="fas fa-list"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Lists </span>
-                </Link>
-                <Link to="#" className="list-group-item">
+                </a>
+                <a href="#" className="list-group-item">
                     <i className="fas fa-user"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Profile </span>
-                </Link>
-                <Link to="#" className="list-group-item">
+                </a>
+                <a href="#" className="list-group-item">
                     <i className="fas fa-ellipsis-h"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> More </span>
-                </Link>
+                </a>
             </div>
             <div>
                 <a href="tweet.html" className="btn btn-primary wd-tweet-button mt-2"> Tweet </a>
