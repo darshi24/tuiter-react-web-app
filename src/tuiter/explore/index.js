@@ -38,7 +38,7 @@ const ExploreComponent = () => {
             </div>
             <div className="list-group">
                 <div className="list-group-item p-0 ">
-                    <img src="../../../public/images/startship.jpg" className="card-img"/>
+                    <img src="../../images/starship.jpg" className="card-img"/>
                     <div className="wd-text-on-image">SpaceX's Starship</div>
 
                 </div>
