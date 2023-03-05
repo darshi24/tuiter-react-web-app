@@ -40,7 +40,7 @@ const ExploreComponent = () => {
                 <div class="wd-text-on-image">SpaceX's Starship</div>
         
             </div>
-            ${PostSummaryList()}
+<!--            <PostSummaryList/>-->
             
             
         </div>
