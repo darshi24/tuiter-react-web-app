@@ -7,7 +7,7 @@ import {Route, Routes} from "react-router";
 function Tuiter() {
     return(
         <div className="row mt-2">
-            <NavigationSidebar activePage='explore'/>
+            <NavigationSidebar/>
             <div className="col-10 col-lg-7 col-xl-6">
                 <Routes>
                     <Route path="home" element={<HomeComponent/>}/>
