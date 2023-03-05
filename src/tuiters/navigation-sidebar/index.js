@@ -12,12 +12,12 @@ const NavigationSidebar = () => {
                     <i className="fab fa-twitter"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> </span>
                 </a>
-                <Link to="/tuiter-new/home" className={`list-group-item ${activePage === 'home' ? 'active' : ''}`}
+                <Link to="/tuiters/home" className={`list-group-item ${activePage === 'home' ? 'active' : ''}`}
                    id="home">
                     <i className="fas fa-home"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Home </span>
                 </Link>
-                <Link to="/tuiter-new/explore" className={`list-group-item ${activePage === 'explore' ? 'active' : ''}`}
+                <Link to="/tuiters/explore" className={`list-group-item ${activePage === 'explore' ? 'active' : ''}`}
                    id="explore">
                     <i className="fas fa-hashtag"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Explore </span>
