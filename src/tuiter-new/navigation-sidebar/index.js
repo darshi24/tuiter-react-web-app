@@ -8,7 +8,7 @@ const NavigationSidebar = () => {
     return (
         <div className="col-2 col-md-2 col-lg-1 col-xl-2">
             <div className="list-group">
-                <a href="#" className="list-group-item">
+                <a href="twitter.html" className="list-group-item">
                     <i className="fab fa-twitter"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> </span>
                 </a>
@@ -25,27 +25,27 @@ const NavigationSidebar = () => {
                 <Link to="/" className="list-group-item">
                     Labs
                 </Link>
-                <a href="#" className="list-group-item">
+                <a href="notifications.html" className="list-group-item">
                     <i className="fas fa-bell"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Notifications </span>
                 </a>
-                <a href="#" className="list-group-item">
+                <a href="messages.html" className="list-group-item">
                     <i className="fas fa-envelope"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Messages </span>
                 </a>
-                <a href="#" className="list-group-item">
+                <a href="bookmarks.html" className="list-group-item">
                     <i className="fas fa-bookmark"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Bookmarks </span>
                 </a>
-                <a href="#" className="list-group-item">
+                <a href="lists.html" className="list-group-item">
                     <i className="fas fa-list"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Lists </span>
                 </a>
-                <a href="#" className="list-group-item">
+                <a href="profile.html" className="list-group-item">
                     <i className="fas fa-user"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Profile </span>
                 </a>
-                <a href="#" className="list-group-item">
+                <a href="more.html" className="list-group-item">
                     <i className="fas fa-ellipsis-h"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> More </span>
                 </a>
