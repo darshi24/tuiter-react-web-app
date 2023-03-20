@@ -1,0 +1,14 @@
+{
+  "firstname" : "Darshi",
+  "lastname" : "Shah",
+  "handle" : "@darshi",
+  "profilePicture" : "../../images/nasa.png",
+  "bannerPicture" : "../../images/banner.jpg",
+  "bio" : "Student at Northeastern",
+  "website" : "mywebsite.com",
+  "location" : "Boston, MA",
+  "dateOfBirth" : "6/24/2000",
+  "dateJoined" : "3/19/2023",
+  "followingCount" : "200",
+  "followersCount" : "150"
+}

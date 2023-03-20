@@ -41,10 +41,10 @@ const NavigationSidebar = () => {
                     <i className="fas fa-list"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Lists </span>
                 </a>
-                <a href="profile.html" className="list-group-item">
+                <Link to="/tuiters/profile" className={`list-group-item ${activePage === 'profile' || activePage === 'edit-profile' ? 'active' : ''}`}>
                     <i className="fas fa-user"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> Profile </span>
-                </a>
+                </Link>
                 <a href="more.html" className="list-group-item">
                     <i className="fas fa-ellipsis-h"></i>
                     <span className="d-none d-xl-inline d-xxl-inline"> More </span>
