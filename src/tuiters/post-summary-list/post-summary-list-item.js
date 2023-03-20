@@ -13,7 +13,7 @@ const PostSummaryItem = ({post}) => {
                 <div className="wd-suggested-post-stat">{post.tweets === undefined ? '' : post.tweets}</div>
             </div>
 
-            <img className="wd-float-right wd-image-size-80-80 ms-3" src={post.image}/>
+            <img className="wd-float-right wd-image-size-80-80 ms-3" src={post.avatarIcon}/>
         </div>
     );
 };
