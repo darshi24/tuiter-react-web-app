@@ -65,29 +65,42 @@ const EditProfileComponent = () => {
             <div className="justify-content-between">
                 <Link to="../profile" className="text-decoration-none"> X </Link>
             </div>
-            <div className="row">
+            <div className="row position-relative">
                 <img src={user.bannerPicture}/>
-            </div>
-            <div className="row mt-2 justify-content-between align-items-start">
-                <img src={user.profilePicture} className="wd-image-size-80-80 col-9 rounded-pill"/>
-                <Link to="../edit-profile" className="btn btn-primary float-end rounded-pill col-3">Edit Profile</Link>
+                <img src={user.profilePicture} className="position-absolute wd-nudge-up-left wd-image-size-100-100 rounded-pill"/>
             </div>
 
+            <br/>
+            <br/>
 
-            <label className="form-label">First Name</label>
-            <input onChange={firstnameChangeHandler} className="form-control" value={profile.firstname}/>
+            <div class="form-group">
+                <div className="form-floating">
+                    <input onChange={firstnameChangeHandler} className="form-control" value={profile.firstname}/>
+                    <label className="form-label">First Name</label>
+                </div>
 
-            <label className="form-label">Last Name</label>
-            <input onChange={lastnameChangeHandler} className="form-control" value={profile.lastname}/>
+                <div className="form-floating mt-2">
+                    <input onChange={lastnameChangeHandler} className="form-control" value={profile.lastname}/>
+                    <label className="form-label">Last Name</label>
+                </div>
 
-            <label className="form-label">Bio</label>
-            <input onChange={bioChangeHandler} className="form-control" value={profile.bio}/>
+                <div className="form-floating mt-2">
+                    <input onChange={bioChangeHandler} className="form-control" value={profile.bio}/>
+                    <label className="form-label">Bio</label>
+                </div>
 
-            <label className="form-label">Location</label>
-            <input onChange={locationChangeHandler} className="form-control" value={profile.location}/>
+                <div className="form-floating mt-2">
+                    <input onChange={locationChangeHandler} className="form-control" value={profile.location}/>
+                    <label className="form-label">Location</label>
+                </div>
 
-            <label className="form-label">Date Of Birth</label>
-            <input onChange={dobChangeHandler}className="form-control" value={profile.dateOfBirth}/>
+                <div className="form-floating mt-2">
+                    <input onChange={dobChangeHandler}className="form-control" value={profile.dateOfBirth}/>
+                    <label className="form-label">Date Of Birth</label>
+                </div>
+
+
+            </div>
 
             <Link to="../profile" onClick={() => saveDetailsHandler(profile)} className="mt-2 btn btn-primary rounded-pill"> Save </Link>
         </div>
