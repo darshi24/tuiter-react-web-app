@@ -28,6 +28,7 @@ const TuitsList = () => {
                 tuitsArray.map((tuit) =>
                     <TuitsListItem key={tuit._id} tuit={tuit}/>
                 )
+
             }
         </div>
     )
