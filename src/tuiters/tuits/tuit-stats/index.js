@@ -1,13 +1,19 @@
 import React from "react";
 import {tuitLikeToggle} from "../tuits-reducer"
 import {useDispatch} from "react-redux";
+import {updateTuitThunk} from "../../../services/tuits-thunks";
 const TuitStats = ({tuit}) => {
     const dispatch = useDispatch();
 
     const likeHandler = (tuit) => {
 
-        dispatch(tuitLikeToggle(tuit))
+        // dispatch(tuitLikeToggle(tuit))
+        dispatch(updateTuitThunk({
+            ...tuit,
+            likes : tuit.likes + 1
+        }))
     }
+
     return(
         <div className="row mt-2">
             <div className="col-3">
