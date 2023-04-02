@@ -1,13 +1,18 @@
 import React, {useState} from "react";
 // import {createTuit} from "../tuits/tuits-reducer";
 import {createTuitThunk} from "../../services/tuits-thunks";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
+    const currentUser = useSelector(state => state.profile)
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {
-            tuit: whatsHappening
+            tuit: whatsHappening,
+            image: currentUser.profilePicture,
+            handle: currentUser.handle,
+            time: "2h"
+
         }
         // dispatch(createTuit(newTuit));
         dispatch(createTuitThunk(newTuit));

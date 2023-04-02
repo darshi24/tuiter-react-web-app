@@ -13,7 +13,7 @@ const TuitsListItem = ({tuit}) => {
     return(
         <div className="row list-group-item d-inline-flex ">
             <div className="col-1 ps-1 pe-1 d-flex justify-content-center">
-                <img src={tuit.avatarIcon} className="wd-user-image"/>
+                <img src={tuit.image} className="wd-user-image"/>
             </div>
             <div className="col-11 ps-3 pe-1">
                 <div>

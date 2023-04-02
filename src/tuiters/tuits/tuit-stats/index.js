@@ -7,10 +7,19 @@ const TuitStats = ({tuit}) => {
 
     const likeHandler = (tuit) => {
 
-        // dispatch(tuitLikeToggle(tuit))
         dispatch(updateTuitThunk({
             ...tuit,
+            liked : true,
             likes : tuit.likes + 1
+        }))
+    }
+
+    const dislikeHandler = (tuit) => {
+
+        dispatch(updateTuitThunk({
+            ...tuit,
+            liked : false,
+            likes : tuit.likes - 1
         }))
     }
 
@@ -27,12 +36,12 @@ const TuitStats = ({tuit}) => {
             <div className="col-3">
                 {
                     tuit.liked ?
-                        (<span><i onClick={() => likeHandler(tuit)} className="fas fa-heart" style={{"color": "red"}}></i></span>)
+                        (<span><i onClick={() => dislikeHandler(tuit)} className="fas fa-heart" style={{"color": "red"}}></i></span>)
                         : (<span><i onClick={() => likeHandler(tuit)} className="far fa-heart" style={{"color": "rgb(110,118,125)"}}></i></span>)
                 }
                 {
                     tuit.liked ?
-                        (<span onClick={() => likeHandler(tuit)} className="wd-light-gray-text wd-font-size-13" style={{"color": "red"}}>{tuit.likes}</span>)
+                        (<span onClick={() => dislikeHandler(tuit)} className="wd-light-gray-text wd-font-size-13" style={{"color": "red"}}>{tuit.likes}</span>)
                         : (<span onClick={() => likeHandler(tuit)} className="wd-light-gray-text wd-font-size-13">{tuit.likes}</span>)
                 }
             </div>
